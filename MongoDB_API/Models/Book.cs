@@ -11,7 +11,7 @@ namespace MongoDB_API.Models
         public string Id { get; set; }
 
         [BsonElement("Title")]
-        [JsonProperty("Name")]
+        [JsonProperty("Title")]
         public string BookTitle { get; set; }
 
         public decimal Price { get; set; }
